@@ -29,7 +29,7 @@
 }
 
 .ram{
-    position: relative;
+    display: flex;
     background-color: rgb(95, 0, 0);
     width: 500px;
     height: 700px;  
@@ -40,24 +40,20 @@
 }
 
 .entrance{
-    position: absolute;
     font-size: 50px;
-    margin-left: 180px;
-    margin-top: 200px;
+    margin-left: 50px;
+    margin-top: 100px;
 }
 
 .input1{
-    position: absolute;
     background-color: brown;
     width: 400px;
     height: 60px;
     margin-top: 150px;
-    margin-left: 50px;
     font-size: 20px;
 }
 
 .input2{
-    position: absolute;
     width: 400px;
     height: 60px;
     margin-top: 250px;
@@ -66,7 +62,6 @@
 }
 
 .input3{
-    position: absolute;
     width: 400px;
     height: 60px;
     margin-top: 350px;
@@ -75,7 +70,6 @@
 }
 
 .button{
-    position: absolute;
     width: 400px;
     height: 60px;
     margin-top: 500px;
@@ -89,7 +83,6 @@
 }
 
 .text1{
-    position: absolute;
     font-size: 18px;
     margin-top: 600px;
     margin-left: 130px;
