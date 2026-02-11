@@ -18,25 +18,10 @@
             <input class = "input1" placeholder="Телефон / email"/>
             <input class = "input2" placeholder="Введите пароль"/>
             <input class = "input3" placeholder="Введите пароль повторно"/>
-            <button id = "txt" class = "button">ВОЙТИ</button>
+            <button class = "button">ВОЙТИ</button>
             <p class="text1">Вы успешно зарегистрировались!</p>
-            <div id="txt" class="txtnone active" >
             </div>
         </div>
     </div>
-    <script>
-        var bt1 = document.getElementById("txt")
-
-        var tx1 = document.getElementById("txt")
-
-        function reser(){
-            tx1.classList.remove("active")
-        }
-
-        bt1.addEventListener("click", function(){
-            reser();
-            tx1.classList.add("active")
-        })
-    </script>
 </body>
 </html>
